@@ -72,7 +72,7 @@ nav ul.nav-links li a::before {
     font-weight: 900;
 }
 
-nav div.container i.fa-solid.fa-bars {
+nav div.container div.bars630px{
     display: none;
 }
 
@@ -409,12 +409,22 @@ footer p {
         display: none;
     }
 
-    header nav div.container div i {
-        padding: 20px
+    /* nav div.container  {
+        display: block;   
+    } */
+
+    header nav div.container div.bars630px {
+        display: block;
+        font-size: 22px;
     }
 
-    nav div.container i.fa-solid.fa-bars {
-        display: block;   
+    header nav div.container div.bars630px::before {
+        content: "\f0c9";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: white;
+
     }
 
     main section.banner div.caption {
